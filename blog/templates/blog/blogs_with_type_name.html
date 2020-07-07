@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+</head>
+<body>
+    <div>
+        <a href="{% url 'home' %}">
+            <h3>个人博客网站</h3>
+        </a>
+    </div>
+    <hr>
+    <p>分类: 
+        <a href="http://localhost:8000/blog/type/2">
+            随笔
+        </a>
+    </p>
+    <p>分类: 
+        <a href="http://localhost:8000/blog/type/1">
+            Django
+        </a>
+    </p>
+    <p>分类: 
+        <a href="http://localhost:8000/blog/type/3">
+            感悟
+        </a>
+    </p>      
+</body>
+</html>
